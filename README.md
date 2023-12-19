@@ -27,9 +27,12 @@
     console.log(`Server running at http://${hostname}:${port}/`);
    });
 
+6. Cek Output:
+   Buka browser dan akses http://127.0.0.1:3000/. Anda seharusnya melihat pesan "Hello World Gue Patot" sebagai respon dari server Anda.
+
    Memulai server untuk mendengarkan permintaan pada hostname dan port yang telah ditentukan sebelumnya. Ketika server siap mendengarkan, fungsi callback dijalankan, dan
    pesan log dicetak ke konsol.
 
-6. Menjalankan Aplikasi:
+8. Menjalankan Aplikasi:
    Setelah menulis semua kode di atas, Kita dapat menjalankan aplikasi melalui terminal dengan perintah:
    node hello-world.js
